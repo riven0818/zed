@@ -1,0 +1,1 @@
+[32mINFO    [0m Common.Log:Assert.py:47 用例:[删除消息通知] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': None, 'success': True}包含预期结果: {'success': True}

@@ -1,0 +1,23 @@
+-
+  caseName: 查询任务列表
+  requests:
+    api: /taskInfo/getTaskInfoPage.idol
+    method: get
+  status_code: 200
+  validate:
+    success: True
+
+#-
+#  caseName: 按名称查询任务
+#  requests:
+#    api:  /taskInfo/getTaskInfoPage.idol
+#    method: get
+#  params:
+#    taskName: autotest_pytest测试
+#    type: 2
+#    pageSize: 20
+#    currentPage: 1
+#  status_code: 200
+#  validate:
+#    success: true
+#    task_name: autotest_pytest测试

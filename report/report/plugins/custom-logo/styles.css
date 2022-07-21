@@ -1,0 +1,14 @@
+.side-nav__brand {
+  background: url('zed-logo.png') no-repeat left center !important;      
+  margin-left: 10px;
+  height: 40px;
+  background-size: contain !important;
+}
+.side-nav__brand span{
+    display: none;
+}
+.side-nav__brand:after{
+    content: "载德科技";    
+    margin-left: 15px;
+  
+}

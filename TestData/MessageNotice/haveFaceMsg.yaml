@@ -1,0 +1,68 @@
+-
+  caseName: 上传照片
+  fileName: haveFaceMsg.yaml
+  requests:
+    api: /common/uploadFileSync2.idop
+    method: post
+    data:
+    params:
+      title:
+      pageSize: 20
+      currentPage: 1
+    headers:
+      Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypTuaiMyNuSkKaJko #类型
+  imgPath:
+  status_code: 200
+  validate:
+    success: True
+
+#-
+#  caseName: 上传多张照片（两张）
+#  requests:
+#    api: /common/uploadFileSync2.idop
+#    method: post
+#    data:
+#    params:
+#      title:
+#      pageSize: 20
+#      currentPage: 1
+#    headers:
+#      Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypTuaiMyNuSkKaJko #类型
+#  imgPath:
+#  status_code: 200
+#  validate:
+#    success: True
+#
+#-
+#  caseName: 上传超过限制照片（十张，限制9张）
+#  requests:
+#    api: /common/uploadFileSync2.idop
+#    method: post
+#    data:
+#    params:
+#      title:
+#      pageSize: 20
+#      currentPage: 1
+#    headers:
+#      Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypTuaiMyNuSkKaJko #类型
+#  imgPath:
+#  status_code: 200
+#  validate:
+#    success: True
+
+-
+  caseName: 上传错误格式照片（满足要求照片格式：JPG\PNG）
+  requests:
+    api: /common/uploadFileSync2.idop
+    method: post
+    data:
+    params:
+      title:
+      pageSize: 20
+      currentPage: 1
+    headers:
+      Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypTuaiMyNuSkKaJko #类型
+  imgPath:
+  status_code: 200
+  validate:
+    success: True

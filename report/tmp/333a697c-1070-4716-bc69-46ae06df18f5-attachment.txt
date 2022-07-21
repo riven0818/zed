@@ -1,0 +1,1 @@
+[1m[31mERROR   [0m Common.Log:test_attendance.py:87 token已过期，请重新获取！！！

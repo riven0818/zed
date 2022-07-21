@@ -1,0 +1,11 @@
+-
+  CaseName: 用户登录
+  requests:
+    api: /system/checkiLogin.idop
+    method: post
+    data:
+      userAccount: admin
+      pwd: 21232f297a57a5a743894a0e4a801fc3
+  validate:
+    - code: 200
+    - success: true

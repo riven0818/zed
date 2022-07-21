@@ -1,0 +1,52 @@
+-
+  caseName: 按时间查询(最近一个月)
+  requests:
+    api: /attendance/attendanceManager.idol
+    method: post
+    data:
+      startTime:
+      endTime:
+    params:
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 按部门查询(zed)
+  requests:
+    api: /attendance/attendanceManager.idol
+    method: post
+    data:
+      deptName: zed
+    params:
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 按姓名查询(admin)
+  requests:
+    api: /attendance/attendanceManager.idol
+    method: post
+    data:
+      deptName:
+      userName: admin
+    params:
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 按职务查询(局长)
+  requests:
+    api: /attendance/attendanceManager.idol
+    method: post
+    data:
+      deptName:
+      userName:
+      jobType: 11 #局长
+    params:
+  status_code: 200
+  validate:
+    success: True
+

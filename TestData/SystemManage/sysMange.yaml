@@ -1,0 +1,11 @@
+-
+  caseName: 查看系统用例列表
+  requests:
+    api: /system/listSysUser.idol
+    method: post
+    params:
+      pageSize: 10
+      currentPage: 1
+  status_code: 200
+  validate:
+    success: true

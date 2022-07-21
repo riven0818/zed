@@ -1,0 +1,2 @@
+[1m[31mERROR   [0m Common.Log:Request.py:55 unkown error
+[32mINFO    [0m Common.Log:Assert.py:47 用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '4028894081f61a280181fb6b4e61000a', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.9.192:9998/20220714/4028894081f61a280181fb6b4e61000a.jpeg', 'fileType': 'jpeg', 'createTime': '2022-07-14T06:35:22.592+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}

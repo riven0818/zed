@@ -1,0 +1,128 @@
+-
+  caseName: 新增消息
+  requests:
+    api: /publicMessage/saveOrUpdate.idol
+    method: post
+    params:
+    data:
+      title: autotest_message_test
+      content: 自动化测试
+      imgId: null
+      receivers:
+       - f827bf18edd743129b78273840a01b2f
+  status_code: 200
+  validate:
+    success: True
+-
+  caseName: 查询指定的标题消息
+  requests:
+    api: /publicMessage/getMessages.idol
+    method: get
+    data:
+    params:
+      title: autotest_message_test
+      pageSize: 20
+      currentPage: 1
+  status_code: 200
+  validate:
+    success: True
+-
+  caseName: 按发布人查询消息
+  requests:
+    api: /publicMessage/getMessages.idol
+    method: get
+    data:
+    params:
+      publisherName: admin
+      pageSize: 20
+      currentPage: 1
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 消息包含图片
+  requests:
+    api: /publicMessage/getMessages.idol
+    method: get
+    data:
+    params:
+      publisherName:
+      imgNum: 1
+      pageSize: 20
+      currentPage: 1
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 消息不含图片
+  requests:
+    api: /publicMessage/getMessages.idol
+    method: get
+    data:
+    params:
+      publisherName:
+      imgNum: 0  #不包含图片
+      pageSize: 20
+      currentPage: 1
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 消息已读
+  requests:
+    api: /publicMessage/getMessages.idol
+    method: get
+    data:
+    params:
+      publisherName:
+      readStatus: 1  #消息已读
+      pageSize: 20
+      currentPage: 1
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 消息未读
+  requests:
+    api: /publicMessage/getMessages.idol
+    method: get
+    data:
+    params:
+      publisherName:
+      readStatus: 0  #消息未读
+      pageSize: 20
+      currentPage: 1
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 查询最近一周的消息
+  requests:
+    api: /publicMessage/getMessages.idol
+    method: get
+    data:
+    params:
+      startCtm:
+      startEtm:
+      type: 2
+      pageSize: 20
+      currentPage: 1
+  status_code: 200
+  validate:
+    success: True
+#-
+#  caseName: 删除消息通知
+#  requests:
+#    api: /publicMessage/delete.idol
+#    method: post
+#    data:
+#    params:
+#  del_title: autotest_message_test
+#  status_code: 200
+#  validate:
+#    success: True

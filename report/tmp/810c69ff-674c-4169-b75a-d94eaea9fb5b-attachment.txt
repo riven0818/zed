@@ -1,0 +1,1 @@
+[32mINFO    [0m Common.Log:Assert.py:47 用例:[按部门查询(zed)] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'userId': 'f827bf18edd743129b78273840a01b2f', 'userAccount': 'admin', 'userName': 'admin', 'deptName': 'zed', 'jobType': '11', 'jobTypeStr': '局长', 'days': 1, 'hours': 9}], 'success': True}包含预期结果: {'success': True}

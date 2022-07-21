@@ -1,0 +1,83 @@
+-
+  caseName: 查看所有评价结果
+  requests:
+    api: /merit/queryMeritList.idol
+    method: post
+    data:
+      pageSize:
+      currentPage:
+    params:
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 按月评价结果（本月）
+  requests:
+    api: /merit/queryMeritList.idol
+    method: post
+    data:
+      pageSize:
+      currentPage:
+      statDate: 202206
+    params:
+  status_code: 200
+  validate:
+    success: True
+-
+  caseName: 按部门查看评价结果（zed）
+  requests:
+    api: /merit/queryMeritList.idol
+    method: post
+    data:
+      pageSize:
+      currentPage:
+      deptName: zed
+    params:
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 按姓名查看评价结果（admin）
+  requests:
+    api: /merit/queryMeritList.idol
+    method: post
+    data:
+      pageSize:
+      currentPage:
+      deptName:
+      userName: admin
+    params:
+  status_code: 200
+  validate:
+    success: True
+
+-
+  caseName: 按职位查看评价结果（局长）
+  requests:
+    api: /merit/queryMeritList.idol
+    method: post
+    data:
+      pageSize:
+      currentPage:
+      deptName:
+      userName:
+      jobType: 11 #局长
+    params:
+  status_code: 200
+  validate:
+    success: True
+
+
+-
+  caseName: 查看评价详情（局长）
+  requests:
+    api: /merit/queryEvaluationDetail.idol
+    method: post
+    data:
+      id:
+    params:
+  status_code: 200
+  validate:
+    success: True

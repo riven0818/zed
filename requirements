@@ -1,0 +1,8 @@
+allure-pytest = 2.9.45
+pytest = 7.1.2
+pytest-html = 3.1.1
+python = 3.10
+requests = 2.27.1
+pyyaml = 6.0
+pymysql = 1.0.2
+colorlog = 6.6.0

@@ -1,0 +1,160 @@
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 13:16:19,499]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '40288740814215340181994a8e7d005b', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/40288740814215340181994a8e7d005b.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T05:16:49.149+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 13:16:19,601]   [用例:[上传多张照片（两张）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '40288740814215340181994a8f3c005c', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/40288740814215340181994a8f3c005c.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T05:16:49.340+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 13:16:19,694]   [用例:[上传超过限制照片（十张，限制9张）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '40288740814215340181994a8fa1005d', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/40288740814215340181994a8fa1005d.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T05:16:49.441+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 13:16:19,780]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '40288740814215340181994a8ffd005e', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/40288740814215340181994a8ffd005e.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T05:16:49.533+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 13:35:30,981]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '40288740814215340181995c20c9005f', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/40288740814215340181995c20c9005f.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T05:36:00.712+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 13:35:31,048]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '40288740814215340181995c21430060', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/40288740814215340181995c21430060.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T05:36:00.835+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\TestCase\Attendance\test_attendance.py:test_attendance:31]   [ERROR]  [2022-06-25 13:35:44,585]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\Attendance\test_attendance.py:test_query_department:49]   [ERROR]  [2022-06-25 13:35:44,635]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\Attendance\test_attendance.py:test_query_name:68]   [ERROR]  [2022-06-25 13:35:44,686]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\Attendance\test_attendance.py:test_query_position:87]   [ERROR]  [2022-06-25 13:35:44,736]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 13:35:45,099]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '40288740814215340181995c570a0061', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/40288740814215340181995c570a0061.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T05:36:14.602+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 13:35:45,387]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '40288740814215340181995c58790062', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/40288740814215340181995c58790062.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T05:36:14.969+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 13:35:45,443]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 13:35:45,521]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 13:35:45,599]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 13:35:45,654]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 13:35:45,704]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 13:35:45,755]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 13:35:45,808]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 13:35:45,857]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 13:35:46,440]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 13:35:46,493]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 13:35:46,544]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 13:35:46,594]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 13:35:46,644]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 13:35:46,717]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 13:35:46,766]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 13:35:46,816]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:53]   [ERROR]  [2022-06-25 13:35:46,868]   [预期结果类型：<class 'dict'>或实际结果类型：<class 'tuple'>格式有错误，请排查！]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:49]   [ERROR]  [2022-06-25 13:35:46,928]   [用例：【查询任务列表】 实际结果: {'errCode': '0', 'errMsg': '用户未登录', 'success': False}不包含或部分包含预期结果：{'success': True}，用例不通过，请检查不匹配项!]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:12:50,047]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a2316e00063', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a2316e00063.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:13:19.839+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:12:50,246]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a2317be0064', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a2317be0064.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:13:20.062+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\TestCase\Attendance\test_attendance.py:test_attendance:31]   [ERROR]  [2022-06-25 17:13:10,816]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\Attendance\test_attendance.py:test_query_department:49]   [ERROR]  [2022-06-25 17:13:10,869]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\Attendance\test_attendance.py:test_query_name:68]   [ERROR]  [2022-06-25 17:13:10,976]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\Attendance\test_attendance.py:test_query_position:87]   [ERROR]  [2022-06-25 17:13:11,037]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:13:11,182]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a2369cd0065', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a2369cd0065.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:13:41.069+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:13:11,366]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a236a650066', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a236a650066.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:13:41.221+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 17:13:11,442]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 17:13:11,494]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 17:13:11,547]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 17:13:11,596]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 17:13:11,647]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 17:13:11,696]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 17:13:11,749]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_messageNotice.py:test_msg:53]   [ERROR]  [2022-06-25 17:13:11,799]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 17:13:12,348]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 17:13:12,414]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 17:13:12,476]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 17:13:12,533]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 17:13:12,584]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 17:13:12,640]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 17:13:12,690]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\TestCase\MessageNotice\test_queryMsg.py:test_msg:40]   [ERROR]  [2022-06-25 17:13:12,745]   [token已过期，请重新获取！！！]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:53]   [ERROR]  [2022-06-25 17:13:12,810]   [预期结果类型：<class 'dict'>或实际结果类型：<class 'tuple'>格式有错误，请排查！]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:49]   [ERROR]  [2022-06-25 17:13:12,875]   [用例：【查询任务列表】 实际结果: {'errCode': '0', 'errMsg': '用户未登录', 'success': False}不包含或部分包含预期结果：{'success': True}，用例不通过，请检查不匹配项!]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:35:59,423]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a384aae0067', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a384aae0067.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:36:29.358+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:35:59,528]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a384b150068', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a384b150068.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:36:29.461+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Request.py:send_request:58]   [ERROR]  [2022-06-25 17:51:21,064]   [unkown error]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:51:21,064]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a465a020069', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a465a020069.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:51:50.786+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Request.py:send_request:58]   [ERROR]  [2022-06-25 17:51:21,198]   [unkown error]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:51:21,199]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a465b44006a', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a465b44006a.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:51:51.108+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Request.py:send_request:59]   [ERROR]  [2022-06-25 17:51:57,674]   [unkown error]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:51:57,674]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a46e9c9006b', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a46e9c9006b.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:52:27.593+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Request.py:send_request:59]   [ERROR]  [2022-06-25 17:51:57,798]   [unkown error]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:51:57,799]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a46ea45006c', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a46ea45006c.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:52:27.716+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Request.py:send_request:59]   [ERROR]  [2022-06-25 17:58:19,455]   [unkown error]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:58:19,456]   [用例:[上传照片] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a4cbd30006d', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a4cbd30006d.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:58:49.392+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]
+
+[D:\zhubin\auto_framwork\zed\Common\Request.py:send_request:59]   [ERROR]  [2022-06-25 17:58:19,586]   [unkown error]
+
+[D:\zhubin\auto_framwork\zed\Common\Assert.py:assert_in:47]   [INFO]  [2022-06-25 17:58:19,586]   [用例:[上传错误格式照片（满足要求照片格式：JPG\PNG）] 执行成功!!!***实际结果: {'errCode': '1', 'errMsg': '响应成功', 'data': [{'fileId': '402887408142153401819a4cbda5006e', 'fileName': 'ZED001.jpeg', 'filePath': 'http://192.168.7.192:9998/20220625/402887408142153401819a4cbda5006e.jpeg', 'fileType': 'jpeg', 'createTime': '2022-06-25T09:58:49.509+0000', 'salesCenterId': None, 'fileSize': 15774}], 'success': True}包含预期结果: {'success': True}
+]

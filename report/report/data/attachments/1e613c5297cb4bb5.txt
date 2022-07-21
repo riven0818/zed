@@ -1,0 +1,2 @@
+
+[31m[2022-06-25 13:35:44,736] [test_attendance.py:87] [test_attendance:test_query_position] [ERROR]- token已过期，请重新获取！！！[0m

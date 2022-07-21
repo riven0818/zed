@@ -1,0 +1,11 @@
+-
+  caseName: 删除消息通知
+  requests:
+    api: /publicMessage/delete.idol
+    method: post
+    data:
+      id: 1 #要删除的消息id
+    params:
+  status_code: 200
+  validate:
+    success: True
