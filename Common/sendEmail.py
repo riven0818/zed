@@ -18,7 +18,7 @@ def send_email(receives,title):
     '''
     #登陆服务器
     smtp_obj = smtplib.SMTP_SSL("smtp.exmail.qq.com", '465')  # 发送人邮箱中的SMTP服务器  端口号
-    smtp_obj.login("zhubin@zeditech.com","Riven@0818")  # 发件人邮箱账号和邮箱密码
+    smtp_obj.login("zhubin@zeditech.com","8888")  # 发件人邮箱账号和邮箱密码
     #smtp_obj.set_debuglevel(1)  # 显示调试信息
     print('发送对象的邮箱为：',receives)
     msg = MIMEMultipart()
